@@ -1,0 +1,10 @@
+@charset "utf-8";
+
+body {
+	background: #181818;
+	font-family: 'Coda', 'Helvetica', sans-serif;
+	color: #ffffff;
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+}
