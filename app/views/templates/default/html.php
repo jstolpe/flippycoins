@@ -40,6 +40,8 @@
 	</head>
 	<body>
 		<!-- main content html -->
-		<?php echo $html_body; ?>
+		<div class="body-container">
+			<?php echo $html_body; ?>
+		</div>
 	</body>
 </html>
