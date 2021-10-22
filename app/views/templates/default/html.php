@@ -17,11 +17,17 @@
 		<!-- template css -->
 		<link href="<?php echo BASE_URL_ASSETS; ?>css/templates/default/global.css" rel="stylesheet" type="text/css">
 
+		<!-- loader css -->
+		<link href="<?php echo BASE_URL_ASSETS; ?>css/loader/global.css" rel="stylesheet" type="text/css">
+
 		<!-- jquery -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
 		<!-- template js -->
 		<script src="<?php echo BASE_URL_ASSETS; ?>js/templates/default/global.js"></script>
+
+		<!-- loader js -->
+		<script src="<?php echo BASE_URL_ASSETS; ?>js/loader/global.js"></script>
 
 		<script type="text/javascript">
 			// define mobile break for js
@@ -32,6 +38,9 @@
 					baseUrl: '<?php echo HREF_BASE_URL; ?>',
 					isMobile: $( window ).width() < jsMobileBreakpoint ? true : false
 				} );
+
+				// initialize loader for use
+				flippyCoinsLoader.initialize();
 			} );
 		</script>
 

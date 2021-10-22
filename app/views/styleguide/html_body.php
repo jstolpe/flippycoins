@@ -160,4 +160,18 @@
 			</div>
 		</div>
 	</div>
+	<div class="style-guide-row">
+		<h3>
+			Loader Test
+		</h3>
+		<div>
+			.loader-overlay
+			.loader-container
+		</div>
+		<div class="style-guide-row-content">
+			<div class="a-default loader-test-button">
+				Loader Test (lasts 1 second)
+			</div>
+		</div>
+	</div>
 </div>
