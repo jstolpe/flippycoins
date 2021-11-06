@@ -171,11 +171,48 @@ h3 {
 	padding: 10px;
 }
 
+.title-sub-text {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.form-row-container {
+	margin-bottom: 10px;
+}
+
+.or-divider {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
 @media only screen and ( min-width: 1200px ) { /* desktop: do things when size it 1000px or greater */
 	.body-container {
 		margin-top: 20px;
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+
+	.default-container {
+		max-width: 1200px;
+		margin: 0 auto;
+		margin-top: 100px;
+	}
+
+	.default-container-left-side {
+		width: 49%;
+		float: left;
+	}
+
+	.default-container-right-side {
+		width: 49%;
+		float: right;
+	}
+
+	.default-container-left-table-cell {
+		display: table-cell;
+		vertical-align: middle;
+		height: 274px;
 	}
 }
 
@@ -184,5 +221,11 @@ h3 {
 		margin-top: 10px;
 		padding-left: 10px;
 		padding-right: 10px;
+	}
+
+	.default-container-left-table-cell {
+		margin-bottom: 30px;
+		margin-top: 20px;
+		text-align: center;
 	}
 }
