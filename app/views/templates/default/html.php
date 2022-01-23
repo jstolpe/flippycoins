@@ -29,6 +29,9 @@
 		<!-- loader js -->
 		<script src="<?php echo BASE_URL_ASSETS; ?>js/loader/global.js"></script>
 
+		<!-- form js -->
+		<script src="<?php echo BASE_URL_ASSETS; ?>js/form/global.js"></script>
+
 		<script type="text/javascript">
 			// define mobile break for js
 			var jsMobileBreakpoint = '1200';

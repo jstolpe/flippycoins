@@ -16,14 +16,14 @@
 			<div class="section-default-container-inner">
 				<form id="login_form">
 					<div class="form-row-container">
-						<input class="input-default" type="text" name="email" placeholder="email" />
+						<input class="input-default" type="text" name="email" placeholder="email" data-type="email" />
 					</div>
 					<div class="form-row-container">
-						<input class="input-default" type="password" name="password" placeholder="password" />
+						<input class="input-default" type="password" name="password" placeholder="password" data-type="password" />
 					</div>
 				</form>
 				<div class="form-row-container">
-					<div class="default-button button-color-blue">
+					<div class="default-button button-color-blue login-button">
 						Log In
 					</div>
 				</div>
